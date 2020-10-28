@@ -31,7 +31,7 @@ function showNotes() {
     let html = "";
     for(let title in notesObj) {
         html += `
-            <div class="add-notes noteCard my-2 mx-2 card" style="width: 18rem;">
+            <div class="add-notes noteCard my-2 mx-2 card" style="width: 18rem; box-shadow: .3rem .3rem .3rem .3rem  #aaaaaa;">
                     <div class="card-body">
                         <h5 class="card-title">${title}</h5>
                         <hr>
